@@ -1,0 +1,60 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* Colours */ 
+  --cyan-600: hsl(192 37 48);
+  --cyan-300: hsl(192 90 77);
+
+  --purple-600: hsl(268 34 53);
+  --purple-300: hsl(268 100 86);
+
+  --slate-900: hsl(240 21 20);
+  --slate-600: hsl(240 10 57);
+  --slate-300: hsl(240 18 85);
+
+  --white: hsl(0 0 98);
+
+  /* Typography */
+  --default-line-height: 110%;
+  --default-page-font: "Red Hat Display", Arial, Helvetica, sans-serif;
+
+  --h1-font: var(--default-page-font);
+  --h1-font-size: 4rem;
+  --h1-line-height: var(--default-line-height);
+  --h1-font-weight: 900;
+
+  --h2-font: var(--default-page-font);
+  --h2-font-size: 2.5rem;
+  --h2-line-height: var(--default-line-height);
+  --h2-font-weight: 900;
+
+  --h3-font: var(--default-page-font);
+  --h3-font-size: 1rem;
+  --h3-line-height: var(--default-line-height);
+  --h3-font-weight: 900;
+  --h3-letter-spacing: 0.25rem;
+
+  --text-font: var(--default-page-font);
+  --text-font-size: 1.125rem;
+  --text-line-height: var(--default-line-height);
+  --text-font-weight: 500;
+
+  --button-font: var(--default-page-font);
+  --button-font-size: 1rem;
+  --button-line-height: 150%;
+  --button-font-weight: 900;
+
+  /* Spacing */
+  --spacing-50: 4px;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-700: 56px;
+  --spacing-800: 64px;
+  --spacing-900: 72px;
+  --spacing-1000: 80px;
+  --spacing-1400: 112px;
+}
