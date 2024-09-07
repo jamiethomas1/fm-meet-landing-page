@@ -180,7 +180,7 @@ body {
 .number__line {
   width: 0;
   height: var(--spacing-1000);
-  border: 1px solid var(--slate-300);
+  border-right: 1px solid var(--slate-300);
   margin: auto;
 }
 
