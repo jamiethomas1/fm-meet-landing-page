@@ -87,13 +87,25 @@ body {
 .hero {
   padding: var(--spacing-400);
   padding-top: var(--spacing-800);
+
+  overflow: hidden;
 }
 
 .hero__img-wrap {
-  margin-left: -20%;
-  margin-right: -20%;
+  position: relative;
 
   padding-bottom: var(--spacing-600);
+}
+
+.hero__img {
+  position: relative;
+  left: -20%;
+
+  max-width: none;
+  width: 140%;
+  height: auto;
+
+  object-fit: cover;
 }
 
 .hero__content {
