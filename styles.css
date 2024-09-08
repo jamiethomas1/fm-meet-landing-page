@@ -310,7 +310,20 @@ body {
   }
 
   .hero__content {
-    padding-inline: var(--spacing-1400);
+    padding-inline: calc(var(--spacing-1400) + var(--spacing-50));
+  }
+
+  .features {
+    padding-top: var(--spacing-700);
+  }
+
+  .features__picture-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-300);
+  }
+
+  .features__content {
+    padding-inline: calc(var(--spacing-1000) + var(--spacing-100));
   }
 }
 
